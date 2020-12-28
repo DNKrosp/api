@@ -1,0 +1,26 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Core\\": "src/core",
+      "Server\\": "src/server",
+      "Database\\": "src/database",
+
+      "UWatcher\\Controller\\": "src/ApiUWatcher/controller",
+      "UWatcher\\Core\\": "src/ApiUWatcher/core",
+      "UWatcher\\Query\\": "src/ApiUWatcher/query",
+      "UWatcher\\Helper\\": "src/ApiUWatcher/helper"
+    },
+    "files": [
+      "vendor/autoload.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-curl": "*"
+  }
+}
+
